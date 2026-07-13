@@ -1,6 +1,6 @@
 # Automated Data Parsing & Semantic Translation Matrix
 
-A client-side tool that ingests unstructured operational text — onboarding memos, SOP drafts, meeting notes — and serializes it into two synchronized outputs in a single pass: human-readable Markdown documentation and a machine-readable JSON payload.
+A client side tool that ingests unstructured operational text onboarding memos, SOP drafts, meeting notes and serializes it into two synchronized outputs in a single pass: human readable Markdown documentation and a machine readable JSON payload.
 
 **[Live demo →](#)** *(add your GitHub Pages link here once deployed)*
 
@@ -13,7 +13,7 @@ Operations teams lose significant time converting messy, unstructured notes into
 A dual-layer instruction matrix that decouples raw text into two aligned outputs from one source:
 
 - **Layer A — Human-Readable Markdown.** Restructures the input into scannable steps, bolds critical variables (deadlines, quantities, thresholds), and isolates compliance-sensitive language into flagged warning blocks.
-- **Layer B — Machine-Readable JSON.** Serializes the same content into a validated schema — step sequence, critical variables, and compliance-risk flags — ready for direct API or database ingestion.
+- **Layer B — Machine-Readable JSON.** Serializes the same content into a validated schema — step sequence, critical variables, and compliance risk flags ready for direct API or database ingestion.
 
 Both layers are generated from the same parse pass, so they can never drift apart.
 
@@ -26,7 +26,7 @@ Both layers are generated from the same parse pass, so they can never drift apar
 3. Markdown and JSON views render simultaneously from the same parsed structure.
 4. Either output can be copied with one click.
 
-Everything runs client-side — no external API calls, no network latency, no server dependency.
+Everything runs client-side no external API calls, no network latency, no server dependency.
 
 ## Stack
 
