@@ -2,7 +2,7 @@
 
 A client side tool that ingests unstructured operational text onboarding memos, SOP drafts, meeting notes and serializes it into two synchronized outputs in a single pass: human readable Markdown documentation and a machine readable JSON payload.
 
-**[Live demo →](#)** *(add your GitHub Pages link here once deployed)*
+**[Live demo →](https://abioyestephen.github.io/data-parsing-matrix/)**
 
 ## The Problem
 
